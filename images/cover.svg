@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1400 2100">
-	<title>The cover for the Standard Ebooks edition of The Federalist Papers, by Alexander Hamilton,John Jay,James Madison</title>
+	<title>The cover for the Standard Ebooks edition of The Federalist Papers, by Alexander Hamilton, John Jay, and James Madison</title>
 	<style type="text/css">
 		.title-box{
 			fill-opacity: .75;
@@ -14,7 +14,7 @@
 		}
 
 		.title{
-			font-size: 93.56725311px;
+			font-size: 70.17543793px;
 		}
 
 		.author{
@@ -23,8 +23,8 @@
 	</style>
 	<image height="2100" width="1400" x="0" y="0" xlink:href="cover.jpg"/>
 	<path class="title-box" d="M 50,1620 1350,1620 1350,2050 50,2050 Z"/>
-	<text class="title" x="700" y="1775">THE FEDERALIST</text>
-	<text class="title" x="700" y="1875">PAPERS</text>
-	<text class="author" x="700" y="1975">ALEXANDER HAMILTON,JOHN</text>
-	<text class="author" x="700" y="2035">JAY,JAMES MADISON</text>
+	<text class="title" x="700" y="1755">THE FEDERALIST PAPERS</text>
+	<text class="author" x="700" y="1855">ALEXANDER HAMILTON</text>
+	<text class="author" x="700" y="1915">JOHN JAY</text>
+	<text class="author" x="700" y="1975">JAMES MADISON</text>
 </svg>

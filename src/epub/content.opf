@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alexander-hamilton-john-jay-james-madison/the-federalist-papers</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alexander-hamilton_john-jay_james-madison/the-federalist-papers</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -36,7 +36,7 @@
 		<meta property="term" refines="#subject-1">sh2008101624</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85139986</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -48,30 +48,40 @@
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Federalist_Papers</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-hamilton-john-jay-james-madison_the-federalist-papers</meta>
-		<dc:creator id="author">Alexander Hamilton,John Jay,James Madison</dc:creator>
-		<meta property="file-as" refines="#author">Madison, Alexander Hamilton,John Jay,James</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-hamilton_john-jay_james-madison_the-federalist-papers</meta>
+		<dc:creator id="author-1">Alexander Hamilton</dc:creator>
+		<meta property="file-as" refines="#author-1">Hamilton, Alexander</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Alexander_Hamilton</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n79021633</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<dc:creator id="author-2">John Jay</dc:creator>
+		<meta property="file-as" refines="#author-2">Jay, John</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/John_Jay</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n79088877</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
+		<dc:creator id="author-3">James Madison</dc:creator>
+		<meta property="file-as" refines="#author-3">Madison, James</meta>
+		<meta property="se:name.person.full-name" refines="#author-3">James Madison Jr.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-3">https://en.wikipedia.org/wiki/James_Madison</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n80067022</meta>
+		<meta property="role" refines="#author-3" scheme="marc:relators">aut</meta>
+		<dc:contributor id="artist">Howard Chandler Christy</dc:contributor>
+		<meta property="file-as" refines="#artist">Christy, Howard Chandler</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Howard_Chandler_Christy</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86023615</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">The Constitution Society</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Constitution Society, The</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">An Anonymous Volunteer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Anonymous Volunteer, An</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
