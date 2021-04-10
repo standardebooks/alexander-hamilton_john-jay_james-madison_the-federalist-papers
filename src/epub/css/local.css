@@ -28,3 +28,20 @@ header + p{
 	font-style: normal;
 }
 /* end of bridgeheads */
+
+/* poetry/song/verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+/* end of poetry/song/verse */
