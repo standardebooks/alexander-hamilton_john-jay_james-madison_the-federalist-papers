@@ -43,6 +43,9 @@
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1404</dc:source>
+		<!-- Henry B. Dawson edition, 1863 -->
+		<dc:source>https://archive.org/details/federalistcollec00unse_0</dc:source>
+		<!-- Henry Cabot Lodge edition, 1889 -->
 		<dc:source>https://archive.org/details/federalistacomm02lodggoog</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
@@ -68,11 +71,17 @@
 		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n80067022</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author-1" scheme="marc:relators">ann</meta>
-		<dc:contributor id="artist">Howard Chandler Christy</dc:contributor>
-		<meta property="file-as" refines="#artist">Christy, Howard Chandler</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Howard_Chandler_Christy</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86023615</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="editor-1">Henry B. Dawson</dc:contributor>
+		<meta property="file-as" refines="#editor-1">Dawson, Henry B.</meta>
+		<meta property="se:name.person.full-name" refines="#editor-1">Henry Barton Dawson</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/Henry_B._Dawson</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n86053308</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">win</meta>
+		<dc:contributor id="editor-2">Henry Cabot Lodge</dc:contributor>
+		<meta property="file-as" refines="#editor-2">Lodge, Henry Cabot</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/Henry_Cabot_Lodge</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n79092575</meta>
+		<meta property="role" refines="#editor-2" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="transcriber-1">The Constitution Society</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Constitution Society, The</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
@@ -189,6 +198,7 @@
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
@@ -196,6 +206,7 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
 		<itemref idref="preface.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
