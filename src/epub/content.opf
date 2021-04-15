@@ -39,8 +39,8 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">Eighty-five articles on why the proposed (at the time) U.S. Constitution should be approved.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In early 1787, the Congress of the United States called a meeting of delegates from each state to try to fix what was wrong with the Articles of Confederation. The Articles had created an intentionally weak central government, and that weakness had brought the nation to a crisis in only a few years. Over the next several months, the delegates worked to produce the document that would become the U.S. Constitution.&lt;/p&gt;
-			&lt;p&gt;When Congress released the proposed constitution to the states for ratification in the fall of 1787, reaction was swift: in newspapers throughout each state, columnists were quick to condemn the radical reworking of the nation’s formative document. In New York State, a member of the convention decided to launch into the fray; he and two other men he recruited began writing their own anonymous series defending the proposed Constitution, each one signed Publius. They published seventy-seven articles in four different New York papers over a few months, with another eight being published after all eighty-five were released in book form early the following year. Although guessed by many at the time, it would be a few years before the authors were confirmed to be &lt;a href="https://standardebooks.org/ebooks/alexander-hamilton"&gt;Alexander Hamilton&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/james-madison"&gt;James Madison&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/john-jay"&gt;John Jay&lt;/a&gt;, Hamilton and Madison both being delegates at the convention.&lt;/p&gt;
+			&lt;p&gt;In early 1787, the Congress of the United States called a meeting of delegates from each state to try to fix what was wrong with the Articles of Confederation. The Articles had created an intentionally weak central government, and that weakness had brought the nation to a crisis in only a few years. Over the next several months, the delegates worked to produce the document that would become the &lt;abbr class="initialism"&gt;U.S.&lt;/abbr&gt; Constitution.&lt;/p&gt;
+			&lt;p&gt;When Congress released the proposed constitution to the states for ratification in the fall of 1787, reaction was swift: in newspapers throughout each state, columnists were quick to condemn the radical reworking of the nation’s formative document. In New York State, a member of the convention decided to launch into the fray; he and two other men he recruited began writing their own anonymous series defending the proposed Constitution, each one signed Publius. They published seventy-seven articles in four different New York papers over a few months, with another eight being published after all eighty-five were released in book form early the following year. Although guessed by many at the time, it would be a few years before the authors were confirmed to be &lt;a href="https://standardebooks.org/ebooks/alexander-hamilton_john-jay_james-madison"&gt;Alexander Hamilton, James Madison, and John Jay&lt;/a&gt;, Hamilton and Madison both being delegates at the convention.&lt;/p&gt;
 			&lt;p&gt;Although the articles influence on the ratification is debated (newspapers were largely local at the time, so few outside New York saw the articles), their influence on the interpretation of the Constitution within the judiciary is immense. They are a window not only into the structure and content of the document, but also the &lt;em&gt;reasons&lt;/em&gt; for the structure and content, written by men who helped author the document. Consequently, they have been quoted almost 300 times in Supreme Court cases. They remain perhaps the best and clearest explanation of the document that is the cornerstone of the United States.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
@@ -65,14 +65,14 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/John_Jay</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n79088877</meta>
 		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
-		<meta property="se:role" refines="#author-1" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#author-2" scheme="marc:relators">ann</meta>
 		<dc:creator id="author-3">James Madison</dc:creator>
 		<meta property="file-as" refines="#author-3">Madison, James</meta>
 		<meta property="se:name.person.full-name" refines="#author-3">James Madison Jr.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-3">https://en.wikipedia.org/wiki/James_Madison</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n80067022</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">aut</meta>
-		<meta property="se:role" refines="#author-1" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#author-3" scheme="marc:relators">ann</meta>
 		<dc:contributor id="editor-1">Henry B. Dawson</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Dawson, Henry B.</meta>
 		<meta property="se:name.person.full-name" refines="#editor-1">Henry Barton Dawson</meta>
@@ -86,12 +86,14 @@
 		<meta property="role" refines="#editor-2" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="transcriber-1">The Constitution Society</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Constitution Society, The</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-1">https://en.wikipedia.org/wiki/Constitution_Society</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">An Anonymous Volunteer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Anonymous Volunteer, An</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-3"> http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
