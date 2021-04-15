@@ -1,10 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-#preface footer > p:last-of-type{
-	text-align: initial;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -17,6 +13,12 @@ footer{
 header + p{
 	font-style: italic;
 }
+
+/* location-specific */
+#preface footer > p:last-of-type{
+	text-align: initial;
+}
+/* end of location-specific */
 
 /* bridgeheads */
 [epub|type~="bridgehead"]{
