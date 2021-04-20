@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alexander-hamilton_john-jay_james-madison/the-federalist-papers</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-04-20T19:10:40Z</dc:date>
+		<meta property="dcterms:modified">2021-04-20T19:10:40Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,11 +37,11 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85139986</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">Eighty-five articles on why the proposed (at the time) U.S. Constitution should be approved.</dc:description>
+		<dc:description id="description">Eighty-five articles written by a group of U.S. Founding Fathers on why the proposed U.S. Constitution should be approved.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In early 1787, the Congress of the United States called a meeting of delegates from each state to try to fix what was wrong with the Articles of Confederation. The Articles had created an intentionally weak central government, and that weakness had brought the nation to a crisis in only a few years. Over the next several months, the delegates worked to produce the document that would become the &lt;abbr class="initialism"&gt;U.S.&lt;/abbr&gt; Constitution.&lt;/p&gt;
-			&lt;p&gt;When Congress released the proposed constitution to the states for ratification in the fall of 1787, reaction was swift: in newspapers throughout each state, columnists were quick to condemn the radical reworking of the nation’s formative document. In New York State, a member of the convention decided to launch into the fray; he and two other men he recruited began writing their own anonymous series defending the proposed Constitution, each one signed Publius. They published seventy-seven articles in four different New York papers over a few months, with another eight being published after all eighty-five were released in book form early the following year. Although guessed by many at the time, it would be a few years before the authors were confirmed to be &lt;a href="https://standardebooks.org/ebooks/alexander-hamilton_john-jay_james-madison"&gt;Alexander Hamilton, James Madison, and John Jay&lt;/a&gt;, Hamilton and Madison both being delegates at the convention.&lt;/p&gt;
-			&lt;p&gt;Although the articles influence on the ratification is debated (newspapers were largely local at the time, so few outside New York saw the articles), their influence on the interpretation of the Constitution within the judiciary is immense. They are a window not only into the structure and content of the document, but also the &lt;em&gt;reasons&lt;/em&gt; for the structure and content, written by men who helped author the document. Consequently, they have been quoted almost 300 times in Supreme Court cases. They remain perhaps the best and clearest explanation of the document that is the cornerstone of the United States.&lt;/p&gt;
+			&lt;p&gt;In early 1787, the Congress of the United States called a meeting of delegates from each state to try to fix what was wrong with the Articles of Confederation. The Articles had created an intentionally weak central government, and that weakness had brought the nation to a crisis in only a few years. Over the next several months, the delegates worked to produce the document that would become the U.S. Constitution.&lt;/p&gt;
+			&lt;p&gt;When Congress released the proposed Constitution to the states for ratification in the fall of 1787, reaction was swift: in newspapers throughout each state, columnists were quick to condemn the radical reworking of the nation’s formative document. In New York State, a member of the convention decided to launch into the fray; he and two other men he recruited began writing their own anonymous series defending the proposed Constitution, each one signed “Publius.” They published seventy-seven articles in four different New York papers over the course of several months. When the articles were collected and published as a book early the following year, the authors added another eight articles. Although many at the time guessed the true identities of the authors, it would be a few years before the authors were confirmed to be &lt;a href="https://standardebooks.org/ebooks/alexander-hamilton_john-jay_james-madison"&gt;Alexander Hamilton, James Madison, and John Jay&lt;/a&gt;, Hamilton and Madison both being delegates at the convention.&lt;/p&gt;
+			&lt;p&gt;Although the article’s influence on the Constitution’s ratification is debated—newspapers were largely local at the time, so few outside New York saw the articles—their influence on the interpretation of the Constitution within the judiciary is immense. They are a window not only into the structure and content of the document, but also the &lt;em&gt;reasons&lt;/em&gt; for the structure and content, written by men who helped author the document. Consequently, they have been quoted almost 300 times in Supreme Court cases. They remain perhaps the best and clearest explanation of the document that is the cornerstone of the United States government.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1404</dc:source>
@@ -50,8 +50,8 @@
 		<!-- Henry Cabot Lodge edition, 1889 -->
 		<dc:source>https://archive.org/details/federalistacomm02lodggoog</dc:source>
 		<meta property="se:production-notes">The PG transcription used uppercase for both italics and small-caps, so each article had to be reviewed to determine which to use. The introduction was brought in from Henry Dawson's edition, and the preface on the text from Henry Cabot Lodge's edition. The transcription apparently used the Lodge edition (a couple of printer errors were in the transcription as well), and the footnotes on the revised text from that edition have been added here, while a couple from the transcription that were not present there were removed. The articles consistently capitalized State(s); this edition lowercases them. The transcription included the author, newspaper, and date of publication for each article; this puts that information in a bridgehead.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">195387</meta>
+		<meta property="se:reading-ease.flesch">37.37</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Federalist_Papers</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-hamilton_john-jay_james-madison_the-federalist-papers</meta>
 		<dc:creator id="author-1">Alexander Hamilton</dc:creator>
@@ -108,6 +108,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
