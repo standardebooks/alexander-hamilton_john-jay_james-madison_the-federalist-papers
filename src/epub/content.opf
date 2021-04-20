@@ -95,6 +95,10 @@
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-3"> http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="sponsor">Threadable</dc:contributor>
+		<meta property="file-as" refines="#sponsor">Threadable</meta>
+		<meta property="se:url.homepage" refines="#sponsor">https://www.threadablebooks.com</meta>
+		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
