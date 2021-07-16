@@ -36,6 +36,8 @@
 		<meta property="term" refines="#subject-1">sh2008101624</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85139986</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">Eighty-five articles written by a group of U.S. Founding Fathers on why the proposed U.S. Constitution should be approved.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
