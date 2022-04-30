@@ -88,8 +88,8 @@
 		<meta property="file-as" refines="#transcriber-1">Constitution Society, The</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-1">https://en.wikipedia.org/wiki/Constitution_Society</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">An Anonymous Volunteer</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Anonymous Volunteer, An</meta>
+		<dc:contributor id="transcriber-2">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Anonymous</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
