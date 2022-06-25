@@ -37,6 +37,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">Eighty-five articles written by a group of U.S. Founding Fathers on why the proposed U.S. Constitution should be approved.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In early 1787, the Congress of the United States called a meeting of delegates from each state to try to fix what was wrong with the Articles of Confederation. The Articles had created an intentionally weak central government, and that weakness had brought the nation to a crisis in only a few years. Over the next several months, the delegates worked to produce the document that would become the U.S. Constitution.&lt;/p&gt;
