@@ -74,6 +74,11 @@
 		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n80067022</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Howard Chandler Christy</dc:contributor>
+		<meta property="file-as" refines="#artist">Christy, Howard Chandler</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Howard_Chandler_Christy</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86023615</meta>
+		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor-1">Henry B. Dawson</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Dawson, Henry B.</meta>
 		<meta property="se:name.person.full-name" refines="#editor-1">Henry Barton Dawson</meta>
