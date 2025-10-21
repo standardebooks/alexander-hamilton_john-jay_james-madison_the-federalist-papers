@@ -104,7 +104,6 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="sponsor">Threadable</dc:contributor>
 		<meta property="file-as" refines="#sponsor">Threadable</meta>
-		<meta property="se:url.homepage" refines="#sponsor">https://www.threadablebooks.com/</meta>
 		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
