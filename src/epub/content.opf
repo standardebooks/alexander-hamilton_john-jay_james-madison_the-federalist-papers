@@ -60,21 +60,21 @@
 		<meta property="file-as" refines="#author-1">Hamilton, Alexander</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Alexander_Hamilton</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n79021633</meta>
-		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<dc:creator id="author-2">John Jay</dc:creator>
 		<meta property="file-as" refines="#author-2">Jay, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/John_Jay</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n79088877</meta>
-		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author-2" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
 		<dc:creator id="author-3">James Madison</dc:creator>
 		<meta property="file-as" refines="#author-3">Madison, James</meta>
 		<meta property="se:name.person.full-name" refines="#author-3">James Madison Jr.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-3">https://en.wikipedia.org/wiki/James_Madison</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n80067022</meta>
-		<meta property="role" refines="#author-3" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author-3" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Howard Chandler Christy</dc:contributor>
 		<meta property="file-as" refines="#artist">Christy, Howard Chandler</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Howard_Chandler_Christy</meta>
