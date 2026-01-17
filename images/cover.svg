@@ -13,7 +13,7 @@
 			text-anchor: middle;
 		}
 
-		.title{
+		.title-small{
 			font-size: 70.17543793px;
 		}
 
@@ -23,7 +23,7 @@
 	</style>
 	<image height="2100" width="1400" x="0" y="0" xlink:href="cover.jpg"/>
 	<path class="title-box" d="M 50,1620 1350,1620 1350,2050 50,2050 Z"/>
-	<text class="title" x="700" y="1755">THE FEDERALIST PAPERS</text>
+	<text class="title-small" x="700" y="1755">THE FEDERALIST PAPERS</text>
 	<text class="author" x="700" y="1855">ALEXANDER HAMILTON</text>
 	<text class="author" x="700" y="1915">JOHN JAY</text>
 	<text class="author" x="700" y="1975">JAMES MADISON</text>
