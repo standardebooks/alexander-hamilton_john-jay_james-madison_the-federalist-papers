@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/alexander-hamilton_john-jay_james-madison/the-federalist-papers</dc:identifier>
 		<dc:date>2021-04-20T19:10:40Z</dc:date>
 		<meta property="dcterms:modified">2021-04-20T19:10:40Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -37,8 +38,8 @@
 		<meta property="term" refines="#subject-2">sh85139986</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">Eighty-five articles written by a group of U.S. Founding Fathers on why the proposed U.S. Constitution should be approved.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In early 1787, the Congress of the United States called a meeting of delegates from each state to try to fix what was wrong with the Articles of Confederation. The Articles had created an intentionally weak central government, and that weakness had brought the nation to a crisis in only a few years. Over the next several months, the delegates worked to produce the document that would become the U.S. Constitution.&lt;/p&gt;
@@ -51,63 +52,64 @@
 		<dc:source>https://archive.org/details/federalistcollec00unse_0</dc:source>
 		<!-- Henry Cabot Lodge edition, 1889 -->
 		<dc:source>https://archive.org/details/federalistacomm02lodggoog</dc:source>
-		<meta property="se:production-notes">The PG transcription used uppercase for both italics and small-caps, so each article had to be reviewed to determine which to use. The introduction was brought in from Henry Dawson's edition, and the preface on the text from Henry Cabot Lodge's edition. The transcription apparently used the Lodge edition (a couple of printer errors were in the transcription as well), and the footnotes on the revised text from that edition have been added here, while a couple from the transcription that were not present there were removed. The articles consistently capitalized State(s); this edition lowercases them. The transcription included the author, newspaper, and date of publication for each article; this puts that information in a bridgehead.</meta>
-		<meta property="se:word-count">195351</meta>
-		<meta property="se:reading-ease.flesch">37.68</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Federalist_Papers</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexander-hamilton_john-jay_james-madison_the-federalist-papers</meta>
+		<meta property="schema:wordCount">195351</meta>
+		<meta property="schema:educationalLevel">37.68</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Federalist_Papers" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/alexander-hamilton_john-jay_james-madison_the-federalist-papers" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author-1">Alexander Hamilton</dc:creator>
 		<meta property="file-as" refines="#author-1">Hamilton, Alexander</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Alexander_Hamilton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n79021633</meta>
+		<link href="https://en.wikipedia.org/wiki/Alexander_Hamilton" refines="#author-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79021633.html" refines="#author-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<dc:creator id="author-2">John Jay</dc:creator>
 		<meta property="file-as" refines="#author-2">Jay, John</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/John_Jay</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n79088877</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Jay" refines="#author-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79088877.html" refines="#author-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
 		<dc:creator id="author-3">James Madison</dc:creator>
 		<meta property="file-as" refines="#author-3">Madison, James</meta>
-		<meta property="se:name.person.full-name" refines="#author-3">James Madison Jr.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-3">https://en.wikipedia.org/wiki/James_Madison</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n80067022</meta>
+		<meta property="schema:alternateName" refines="#author-3">James Madison Jr.</meta>
+		<link href="https://en.wikipedia.org/wiki/James_Madison" refines="#author-3" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80067022.html" refines="#author-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Howard Chandler Christy</dc:contributor>
 		<meta property="file-as" refines="#artist">Christy, Howard Chandler</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Howard_Chandler_Christy</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86023615</meta>
+		<link href="https://en.wikipedia.org/wiki/Howard_Chandler_Christy" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86023615.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor-1">Henry B. Dawson</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Dawson, Henry B.</meta>
-		<meta property="se:name.person.full-name" refines="#editor-1">Henry Barton Dawson</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/Henry_B._Dawson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n86053308</meta>
+		<meta property="schema:alternateName" refines="#editor-1">Henry Barton Dawson</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_B._Dawson" refines="#editor-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86053308.html" refines="#editor-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor-2">Henry Cabot Lodge</dc:contributor>
 		<meta property="file-as" refines="#editor-2">Lodge, Henry Cabot</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/Henry_Cabot_Lodge</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n79092575</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_Cabot_Lodge" refines="#editor-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79092575.html" refines="#editor-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-2" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="transcriber-1">The Constitution Society</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Constitution Society, The</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-1">https://en.wikipedia.org/wiki/Constitution_Society</meta>
+		<link href="https://en.wikipedia.org/wiki/Constitution_Society" refines="#transcriber-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Anonymous</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-3">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="sponsor">Threadable</dc:contributor>
 		<meta property="file-as" refines="#sponsor">Threadable</meta>
 		<meta property="role" refines="#sponsor" scheme="marc:relators">spn</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -116,7 +118,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
