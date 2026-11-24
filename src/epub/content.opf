@@ -52,7 +52,7 @@
 		<dc:source>https://archive.org/details/federalistcollec00unse_0</dc:source>
 		<!-- Henry Cabot Lodge edition, 1889 -->
 		<dc:source>https://archive.org/details/federalistacomm02lodggoog</dc:source>
-		<meta property="schema:wordCount">195351</meta>
+		<meta property="schema:wordCount">195329</meta>
 		<meta property="schema:educationalLevel">37.68</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Federalist_Papers" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
